@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="emgusandbox.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Aquamarine">
+            <Label Text="Oia a fotinha"/>
+        </Frame>
+
+        <Label x:Name="teste" Text="ih"/>
+
+        <Button Text="Pick Image" Clicked="Pick"/>
+
+        <Button Text="Take Image" Clicked="Take"/>
+        
+        <Button Text="Remove Image" Clicked="Remove"/>
+
+        <Button Text="Analyze Image" Clicked="Analyze"/>
+
+        <Image x:Name="resultImage" x:FieldModifier="public" />
+
+    </StackLayout>
+
+</ContentPage>
